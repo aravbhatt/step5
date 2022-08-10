@@ -41,7 +41,7 @@ $(document).ready(function() {
 
       $.ajax({
         type: 'POST',
-        url: 'https://example.execute-api.us-east-1.amazonaws.com/v1/register',
+        url: 'https://cy2nrvbhq5.execute-api.us-east-1.amazonaws.com/v1',
         contentType: 'application/json',
         data: data,
         success: function(res) {
